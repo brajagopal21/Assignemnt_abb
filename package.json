@@ -1,0 +1,15 @@
+{
+  "name": "tic-tac-toe-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack Tic Tac Toe with React frontend and Node.js REST API backend",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test",
+    "test": "npm run test:backend",
+    "build:frontend": "cd frontend && npm run build"
+  }
+}
